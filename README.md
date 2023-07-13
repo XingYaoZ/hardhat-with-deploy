@@ -1,13 +1,31 @@
-# Sample Hardhat Project
+# hardhat with hardhat-deploy plugin template
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+
+copy .env
+
+```shell
+BSC_SCAN_API_KEY=''
+# Wallets
+MNEMONIC=""
+ACCOUNTS=
+PK=
+
+```
+
+
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+yarn install
+//or
+npm install
+
+yarn deploy etherscan --tags XXX
+
+yarn verify
+
 ```
+
+
+

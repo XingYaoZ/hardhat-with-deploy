@@ -22,8 +22,7 @@
   },
   "scripts": {
     "deploy": "hardhat deploy  --network",
-    "verify": "hardhat etherscan-verify --network",
-    "deploy:verify": "hardhat etherscan-verify --network"
+    "verify": "hardhat etherscan-verify --network"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.8.3"
